@@ -1,7 +1,11 @@
 body {
-    background: #fefefe;
+    background: #efefef;
 }
 
-.sectionHeader {
-    color: #149055;
+.about__paragraph, .work__heading, .work__paragraph{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
 }
+
