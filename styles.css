@@ -2,6 +2,17 @@ body {
     background: #efefef;
 }
 
+.navigation{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__link{
+    text-decoration: none;
+    padding: 20px;
+}
+
 .about__paragraph, .work__heading, .work__paragraph{
     width: 100%;
     max-width: 800px;
