@@ -2,7 +2,7 @@ body {
     background: #efefef;
 }
 
-.navigation{
+.navigation__list{
     width:100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,12 @@ body {
 
 .navigation__link{
     text-decoration: none;
-    padding: 20px;
+}
+
+.navigation__item{
+    display:block;
+    padding: 0 20px;
+    list-style-type: none;
 }
 
 .about__paragraph, .work__heading, .work__paragraph{
