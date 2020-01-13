@@ -18,10 +18,25 @@ body {
     list-style-type: none;
 }
 
-.about, .work{
+.about, .content{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
+    position: relative;
+}
+
+.content{
+    text-align: center;
+}
+
+.about__picture{
+    float:left;
+    width:100%;
+    max-width:100px;
+}
+
+.work__picture{
+    width:100%;
 }
 
