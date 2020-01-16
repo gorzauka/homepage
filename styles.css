@@ -61,3 +61,54 @@ body {
 .footer__picture {
     max-width: 100px;
 }
+
+@media (max-width: 640px){
+
+    .navigation__switcher{
+        width: 30px;
+        height: 25px;
+        border:none;
+        border-top: 5px solid #000;
+        position: absolute;
+        right:0;
+        top:0;
+        z-index:2;
+        background: none;
+        outline: none;
+        margin: 5px;
+    }
+
+    .navigation__switcher::before, .navigation__switcher::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        border-top: 5px solid #000;
+        transform: translateY(5px);
+    }
+    
+    .navigation__switcher::after{
+        transform: translateY(15px);
+    }
+    
+
+    .navigation__list{
+        flex-direction: column;
+        display:none;
+    }
+
+    .navigation__list--visible{
+        display:flex;
+    }
+    
+    .navigation__item{
+        margin: 16px;
+    }
+}
+
+@media (min-width: 641px){
+    .navigation__switcher{
+        display: none;
+    }
+}
